@@ -1,0 +1,21 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background: url("../img/offer-bg.svg") center top / cover no-repeat;
+}
+
+header {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+
+}
+
+.center {
+  padding: 0 calc(50vw - 720px);
+  //box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

@@ -1,0 +1,20 @@
+.logo {
+  margin-right: 64px;
+}
+
+.social {
+  max-width: 192px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+
+
+  &__list {
+    aspect-ratio: 1 / 1;
+
+    &:hover, &:focus {
+      --color-black: var(--color-blue);
+    }
+
+  }
+}
